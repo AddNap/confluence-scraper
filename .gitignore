@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# lokalne eksporty
+*.html
+!**/templates/**
+*_export.html
+omega_psir_export.html
+lista.txt
+*_list_tmp.txt
+_confluence_list_tmp.txt
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
